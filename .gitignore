@@ -1,4 +1,6 @@
 .vscode/
 *.exe
 *.out
+**/output/
+.DS_Store
 cses_template.cpp

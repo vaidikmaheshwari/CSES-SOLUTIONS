@@ -13,14 +13,14 @@ void solve(int n, vector<string> &ans)
     }
     solve(n - 1, ans);
     vector<string> newAns;
-    int ind = 0;
+
     for (int i = 0; i < ans.size(); i++)
     {
-        newAns.push_back('0' + ans[i]);
+        newAns.push_back("0" + ans[i]);
     }
     for (int i = ans.size() - 1; i >= 0; i--)
     {
-        newAns.push_back('1' + ans[i]);
+        newAns.push_back("1" + ans[i]);
     }
     ans = newAns;
 }

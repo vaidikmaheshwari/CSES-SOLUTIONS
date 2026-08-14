@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
     // digit-queries
-    // solution just
+    // solution justm n
     int n;
     cin >> n;
 
